@@ -27,6 +27,8 @@
 /// THE SOFTWARE.
 
 class Converter {
+    
+    //to convert to numerals to romans
   func convert(_ number: Int) -> String {
     if number != 0{
         var i = 1
