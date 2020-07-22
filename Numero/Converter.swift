@@ -28,7 +28,17 @@
 
 class Converter {
   func convert(_ number: Int) -> String {
-    return "I"
+    if number != 0{
+        var i = 1
+        var romanString = ""
+        repeat{
+            romanString += "I"
+            i+=1
+        }while i <= number
+        
+        return romanString
+    }
+    return "0"
   }
   
 }
